@@ -4,9 +4,287 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OMGHero"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Window.Resources>
+        <DataTemplate x:Key="cmbTemplate">
+            <WrapPanel Margin="0 0 0 0">
+                <Image Width="20" Height="20" Stretch="Fill" Source="{Binding Thumb}" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5,0,0,0"/>
+                <Label Content="{Binding Name}" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="12"/>
+            </WrapPanel>
+        </DataTemplate>
+        <x:Array x:Key="HeroNames" Type="sys:String">
+            <sys:String>上古巨神</sys:String>
+            <sys:String>不朽尸王</sys:String>
+            <sys:String>主宰</sys:String>
+            <sys:String>亚巴顿</sys:String>
+            <sys:String>伐木机</sys:String>
+            <sys:String>修补匠</sys:String>
+            <sys:String>先知</sys:String>
+            <sys:String>光之守卫</sys:String>
+            <sys:String>克林克兹</sys:String>
+            <sys:String>全能骑士</sys:String>
+            <sys:String>兽王</sys:String>
+            <sys:String>军团指挥官</sys:String>
+            <sys:String>冥界亚龙</sys:String>
+            <sys:String>冥魂大帝</sys:String>
+            <sys:String>凤凰</sys:String>
+            <sys:String>剃刀</sys:String>
+            <sys:String>剧毒术士</sys:String>
+            <sys:String>力丸</sys:String>
+            <sys:String>半人马战行者</sys:String>
+            <sys:String>卓尔游侠</sys:String>
+            <sys:String>发条技师</sys:String>
+            <sys:String>变体精灵</sys:String>
+            <sys:String>司夜刺客</sys:String>
+            <sys:String>哈斯卡</sys:String>
+            <sys:String>噬魂鬼</sys:String>
+            <sys:String>圣堂刺客</sys:String>
+            <sys:String>复仇之魂</sys:String>
+            <sys:String>大地之灵</sys:String>
+            <sys:String>天怒法师</sys:String>
+            <sys:String>天涯墨客</sys:String>
+            <sys:String>天穹守望者</sys:String>
+            <sys:String>娜迦海妖</sys:String>
+            <sys:String>孽主</sys:String>
+            <sys:String>宙斯</sys:String>
+            <sys:String>寒冬飞龙</sys:String>
+            <sys:String>小小</sys:String>
+            <sys:String>工程师</sys:String>
+            <sys:String>巨牙海民</sys:String>
+            <sys:String>巨魔战将</sys:String>
+            <sys:String>巫医</sys:String>
+            <sys:String>巫妖</sys:String>
+            <sys:String>帕克</sys:String>
+            <sys:String>帕吉</sys:String>
+            <sys:String>帕格纳</sys:String>
+            <sys:String>干扰者</sys:String>
+            <sys:String>幻影刺客</sys:String>
+            <sys:String>幻影长矛手</sys:String>
+            <sys:String>幽鬼</sys:String>
+            <sys:String>影魔</sys:String>
+            <sys:String>德鲁伊</sys:String>
+            <sys:String>恐怖利刃</sys:String>
+            <sys:String>戴泽</sys:String>
+            <sys:String>拉席克</sys:String>
+            <sys:String>拉比克</sys:String>
+            <sys:String>撼地者</sys:String>
+            <sys:String>敌法师</sys:String>
+            <sys:String>斧王</sys:String>
+            <sys:String>斯拉克</sys:String>
+            <sys:String>斯拉达</sys:String>
+            <sys:String>斯温</sys:String>
+            <sys:String>昆卡</sys:String>
+            <sys:String>暗夜魔王</sys:String>
+            <sys:String>暗影恶魔</sys:String>
+            <sys:String>暗影萨满</sys:String>
+            <sys:String>末日使者</sys:String>
+            <sys:String>术士</sys:String>
+            <sys:String>杰奇洛</sys:String>
+            <sys:String>树精卫士</sys:String>
+            <sys:String>死亡先知</sys:String>
+            <sys:String>殁境神蚀者</sys:String>
+            <sys:String>水晶室女</sys:String>
+            <sys:String>沉默术士</sys:String>
+            <sys:String>沙王</sys:String>
+            <sys:String>混沌骑士</sys:String>
+            <sys:String>潮汐猎人</sys:String>
+            <sys:String>灰烬之灵</sys:String>
+            <sys:String>炼金术士</sys:String>
+            <sys:String>熊战士</sys:String>
+            <sys:String>狙击手</sys:String>
+            <sys:String>狼人</sys:String>
+            <sys:String>玛尔斯</sys:String>
+            <sys:String>痛苦女王</sys:String>
+            <sys:String>瘟疫法师</sys:String>
+            <sys:String>矮人直升机</sys:String>
+            <sys:String>石鳞剑士</sys:String>
+            <sys:String>祈求者</sys:String>
+            <sys:String>神谕者</sys:String>
+            <sys:String>祸乱之源</sys:String>
+            <sys:String>米拉娜</sys:String>
+            <sys:String>米波</sys:String>
+            <sys:String>维萨吉</sys:String>
+            <sys:String>编织者</sys:String>
+            <sys:String>美杜莎</sys:String>
+            <sys:String>育母蜘蛛</sys:String>
+            <sys:String>艾欧</sys:String>
+            <sys:String>莉娜</sys:String>
+            <sys:String>莱恩</sys:String>
+            <sys:String>虚空假面</sys:String>
+            <sys:String>蝙蝠骑士</sys:String>
+            <sys:String>血魔</sys:String>
+            <sys:String>裂魂人</sys:String>
+            <sys:String>谜团</sys:String>
+            <sys:String>赏金猎人</sys:String>
+            <sys:String>远古冰魄</sys:String>
+            <sys:String>邪影芳灵</sys:String>
+            <sys:String>酒仙</sys:String>
+            <sys:String>钢背兽</sys:String>
+            <sys:String>陈</sys:String>
+            <sys:String>露娜</sys:String>
+            <sys:String>风暴之灵</sys:String>
+            <sys:String>风行者</sys:String>
+            <sys:String>食人魔魔法师</sys:String>
+            <sys:String>马格纳斯</sys:String>
+            <sys:String>魅惑魔女</sys:String>
+            <sys:String>黑暗贤者</sys:String>
+            <sys:String>齐天大圣</sys:String>
+            <sys:String>龙骑士</sys:String>
+        </x:Array>
+        <x:Array x:Key="HeroThumbs" Type="sys:String">
+            <sys:String>images\20px-Elder_Titan_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Undying_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Juggernaut_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Abaddon_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Timbersaw_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Tinker_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Nature%27s_Prophet_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Keeper_of_the_Light_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Clinkz_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Omniknight_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Beastmaster_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Legion_Commander_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Viper_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Wraith_King_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Phoenix_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Razor_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Venomancer_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Riki_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Centaur_Warrunner_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Drow_Ranger_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Clockwerk_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Morphling_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Nyx_Assassin_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Huskar_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Lifestealer_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Templar_Assassin_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Vengeful_Spirit_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Earth_Spirit_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Skywrath_Mage_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Grimstroke_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Arc_Warden_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Naga_Siren_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Underlord_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Zeus_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Winter_Wyvern_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Tiny_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Techies_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Tusk_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Troll_Warlord_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Witch_Doctor_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Lich_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Puck_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Pudge_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Pugna_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Disruptor_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Phantom_Assassin_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Phantom_Lancer_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Spectre_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Shadow_Fiend_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Lone_Druid_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Terrorblade_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Dazzle_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Leshrac_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Rubick_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Earthshaker_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Anti-Mage_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Axe_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Slark_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Slardar_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Sven_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Kunkka_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Night_Stalker_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Shadow_Demon_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Shadow_Shaman_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Doom_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Warlock_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Jakiro_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Treant_Protector_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Death_Prophet_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Outworld_Devourer_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Crystal_Maiden_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Silencer_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Sand_King_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Chaos_Knight_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Tidehunter_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Ember_Spirit_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Alchemist_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Ursa_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Sniper_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Lycan_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Mars_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Queen_of_Pain_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Necrophos_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Gyrocopter_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Pangolier_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Invoker_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Oracle_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Bane_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Mirana_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Meepo_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Visage_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Weaver_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Medusa_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Broodmother_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Io_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Lina_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Lion_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Faceless_Void_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Batrider_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Bloodseeker_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Spirit_Breaker_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Enigma_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Bounty_Hunter_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Ancient_Apparition_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Dark_Willow_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Brewmaster_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Bristleback_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Chen_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Luna_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Storm_Spirit_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Windranger_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Ogre_Magi_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Magnus_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Enchantress_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Dark_Seer_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Monkey_King_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Dragon_Knight_minimap_icon.jpg</sys:String>
+        </x:Array>
+        <x:Array  x:Key="HeroAbilities" Type="sys:String">
+            <sys:String>1技能</sys:String>
+            <sys:String>2技能</sys:String>
+            <sys:String>3技能</sys:String>
+            <sys:String>大招</sys:String>
+        </x:Array>
+        <x:Array  x:Key="HeroNormalAbilities" Type="sys:String">
+            <sys:String>1技能</sys:String>
+            <sys:String>2技能</sys:String>
+            <sys:String>3技能</sys:String>
+        </x:Array>
+    </Window.Resources>
+    <Grid VerticalAlignment="Top" Height="417.24" Margin="0,0,18,0" Width="780" HorizontalAlignment="Left">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="29.54" Margin="32.433,80,0,0" TextWrapping="Wrap" Text="选择英雄模型" VerticalAlignment="Top" Width="147.703"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="32.433,140,0,0" TextWrapping="Wrap" Text="1技能" VerticalAlignment="Top" Width="139.825"/>
+        <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="32.433,200,0,0" TextWrapping="Wrap" Text="2技能" Width="139.825" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock1_Copy1" HorizontalAlignment="Left" Margin="32.433,260,0,0" TextWrapping="Wrap" Text="3技能" Width="139.825" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock1_Copy2" HorizontalAlignment="Left" Margin="32.433,320,0,0" TextWrapping="Wrap" Text="大招" VerticalAlignment="Top" Width="139.825"/>
+        <ComboBox x:Name="comboBox" VerticalAlignment="Top" Margin="176.136,75,0,0" HorizontalAlignment="Left" Width="140" ItemTemplate="{StaticResource cmbTemplate}" Height="32"/>
+        <ComboBox x:Name="comboBox2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="140" Margin="176.136,135,0,0" ItemTemplate="{StaticResource cmbTemplate}" Height="32"/>
+        <ComboBox x:Name="comboBox3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="140" Margin="176.136,195,0,0" ItemTemplate="{StaticResource cmbTemplate}" Height="32"/>
+        <ComboBox x:Name="comboBox4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="140" Margin="176.136,255,0,0" ItemTemplate="{StaticResource cmbTemplate}" Height="32"/>
+        <ComboBox x:Name="comboBox5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="140" Margin="176.136,315,0,0" ItemTemplate="{StaticResource cmbTemplate}" Height="32"/>
+        <ComboBox x:Name="comboBox6" HorizontalAlignment="Right" VerticalAlignment="Top" Width="140" Margin="0,135,247,0" Height="32" ItemsSource="{Binding Mode=OneWay, Source={StaticResource HeroNormalAbilities}}" FontSize="16" />
+        <ComboBox x:Name="comboBox7" HorizontalAlignment="Right" VerticalAlignment="Top" Width="140" Margin="0,195,247,0" Height="32" ItemsSource="{Binding Mode=OneWay, Source={StaticResource HeroNormalAbilities}}" FontSize="16" />
+        <ComboBox x:Name="comboBox8" HorizontalAlignment="Right" VerticalAlignment="Top" Width="140" Margin="0,255,247,0" Height="32" ItemsSource="{Binding Mode=OneWay, Source={StaticResource HeroNormalAbilities}}" FontSize="16"/>
+        <ComboBox x:Name="comboBox9" HorizontalAlignment="Right" VerticalAlignment="Top" Width="140" Margin="0,315,247,0" Height="32" ItemsSource="{Binding Mode=OneWay, Source={StaticResource HeroAbilities}}" FontSize="16" SelectedIndex="3"/>
+        <Button x:Name="button" Content="创建英雄" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="75" Margin="32.433,0,0,19" Click="Button_Click"/>
+        <CheckBox x:Name="checkBox" Content="覆盖原英雄" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="176.136,0,0,20.141" IsChecked="True" IsEnabled="False"/>
+        <CheckBox x:Name="checkBox2" Content="解锁大招限制" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,281.025,20.141" d:LayoutOverrides="HorizontalAlignment" Width="105.975" Checked="CheckBox2_Checked" Unchecked="CheckBox2_Unchecked"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="24" Margin="32.433,24,0,0" TextWrapping="Wrap" Text="选择 dota2_beta 文件夹位置" VerticalAlignment="Top" Width="283.703" IsReadOnly="True" />
+        <Button x:Name="button1" Content="选取" HorizontalAlignment="Left" Height="24" Margin="316.136,24,0,0" VerticalAlignment="Top" Width="60.864" Click="Button1_Click"/>
+        <Button x:Name="button2" Content="随机技能" HorizontalAlignment="Right" Height="24" Margin="0,24,247,0" VerticalAlignment="Top" Width="67" Click="Button2_Click"/>
+
     </Grid>
 </Window>

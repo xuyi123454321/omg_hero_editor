@@ -1,0 +1,2040 @@
+{
+ "上古巨神": {
+  "tag": "npc_dota_hero_elder_titan",
+  "abilities": {
+   "1": [
+    "elder_titan_echo_stomp"
+   ],
+   "2": [
+    "elder_titan_ancestral_spirit",
+    "elder_titan_return_spirit"
+   ],
+   "3": [
+    "elder_titan_natural_order"
+   ],
+   "6": [
+    "elder_titan_earth_splitter"
+   ]
+  }
+ },
+ "不朽尸王": {
+  "tag": "npc_dota_hero_undying",
+  "abilities": {
+   "1": [
+    "undying_decay"
+   ],
+   "2": [
+    "undying_soul_rip"
+   ],
+   "3": [
+    "undying_tombstone"
+   ],
+   "6": [
+    "undying_flesh_golem"
+   ]
+  }
+ },
+ "主宰": {
+  "tag": "npc_dota_hero_juggernaut",
+  "abilities": {
+   "1": [
+    "juggernaut_blade_fury"
+   ],
+   "2": [
+    "juggernaut_healing_ward"
+   ],
+   "3": [
+    "juggernaut_blade_dance"
+   ],
+   "6": [
+    "juggernaut_omni_slash"
+   ]
+  }
+ },
+ "亚巴顿": {
+  "tag": "npc_dota_hero_abaddon",
+  "abilities": {
+   "1": [
+    "abaddon_death_coil"
+   ],
+   "2": [
+    "abaddon_aphotic_shield"
+   ],
+   "3": [
+    "abaddon_frostmourne"
+   ],
+   "6": [
+    "abaddon_borrowed_time"
+   ]
+  }
+ },
+ "伐木机": {
+  "tag": "npc_dota_hero_shredder",
+  "abilities": {
+   "1": [
+    "shredder_whirling_death"
+   ],
+   "2": [
+    "shredder_timber_chain"
+   ],
+   "3": [
+    "shredder_reactive_armor",
+    "shredder_return_chakram"
+   ],
+   "6": [
+    "shredder_chakram"
+   ]
+  }
+ },
+ "修补匠": {
+  "tag": "npc_dota_hero_tinker",
+  "abilities": {
+   "1": [
+    "tinker_laser"
+   ],
+   "2": [
+    "tinker_heat_seeking_missile"
+   ],
+   "3": [
+    "tinker_march_of_the_machines"
+   ],
+   "6": [
+    "tinker_rearm"
+   ]
+  }
+ },
+ "先知": {
+  "tag": "npc_dota_hero_furion",
+  "abilities": {
+   "1": [
+    "furion_sprout"
+   ],
+   "2": [
+    "furion_teleportation"
+   ],
+   "3": [
+    "furion_force_of_nature"
+   ],
+   "6": [
+    "furion_wrath_of_nature"
+   ]
+  }
+ },
+ "光之守卫": {
+  "tag": "npc_dota_hero_keeper_of_the_light",
+  "abilities": {
+   "1": [
+    "keeper_of_the_light_illuminate",
+    "keeper_of_the_light_illuminate_end",
+    "keeper_of_the_light_spirit_form_illuminate",
+    "keeper_of_the_light_spirit_form_illuminate_end"
+   ],
+   "2": [
+    "keeper_of_the_light_blinding_light"
+   ],
+   "3": [
+    "keeper_of_the_light_chakra_magic"
+   ],
+   "6": [
+    "keeper_of_the_light_will_o_wisp"
+   ]
+  }
+ },
+ "克林克兹": {
+  "tag": "npc_dota_hero_clinkz",
+  "abilities": {
+   "1": [
+    "clinkz_strafe"
+   ],
+   "2": [
+    "clinkz_searing_arrows"
+   ],
+   "3": [
+    "clinkz_wind_walk"
+   ],
+   "6": [
+    "clinkz_burning_army"
+   ]
+  }
+ },
+ "全能骑士": {
+  "tag": "npc_dota_hero_omniknight",
+  "abilities": {
+   "1": [
+    "omniknight_purification"
+   ],
+   "2": [
+    "omniknight_repel"
+   ],
+   "3": [
+    "omniknight_degen_aura"
+   ],
+   "6": [
+    "omniknight_guardian_angel"
+   ]
+  }
+ },
+ "兽王": {
+  "tag": "npc_dota_hero_beastmaster",
+  "abilities": {
+   "1": [
+    "beastmaster_wild_axes"
+   ],
+   "2": [
+    "beastmaster_call_of_the_wild_boar",
+    "beastmaster_call_of_the_wild_hawk"
+   ],
+   "3": [
+    "beastmaster_inner_beast"
+   ],
+   "6": [
+    "beastmaster_primal_roar"
+   ]
+  }
+ },
+ "军团指挥官": {
+  "tag": "npc_dota_hero_legion_commander",
+  "abilities": {
+   "1": [
+    "legion_commander_overwhelming_odds"
+   ],
+   "2": [
+    "legion_commander_press_the_attack"
+   ],
+   "3": [
+    "legion_commander_moment_of_courage"
+   ],
+   "6": [
+    "legion_commander_duel"
+   ]
+  }
+ },
+ "冥界亚龙": {
+  "tag": "npc_dota_hero_viper",
+  "abilities": {
+   "1": [
+    "viper_poison_attack"
+   ],
+   "2": [
+    "viper_nethertoxin"
+   ],
+   "3": [
+    "viper_corrosive_skin"
+   ],
+   "6": [
+    "viper_viper_strike"
+   ]
+  }
+ },
+ "冥魂大帝": {
+  "tag": "npc_dota_hero_skeleton_king",
+  "abilities": {
+   "1": [
+    "skeleton_king_hellfire_blast"
+   ],
+   "2": [
+    "skeleton_king_vampiric_aura"
+   ],
+   "3": [
+    "skeleton_king_mortal_strike"
+   ],
+   "6": [
+    "skeleton_king_reincarnation"
+   ]
+  }
+ },
+ "凤凰": {
+  "tag": "npc_dota_hero_phoenix",
+  "abilities": {
+   "1": [
+    "phoenix_icarus_dive"
+   ],
+   "2": [
+    "phoenix_fire_spirits"
+   ],
+   "3": [
+    "phoenix_sun_ray",
+    "phoenix_sun_ray_toggle_move"
+   ],
+   "6": [
+    "phoenix_supernova"
+   ]
+  }
+ },
+ "剃刀": {
+  "tag": "npc_dota_hero_razor",
+  "abilities": {
+   "1": [
+    "razor_plasma_field"
+   ],
+   "2": [
+    "razor_static_link"
+   ],
+   "3": [
+    "razor_unstable_current"
+   ],
+   "6": [
+    "razor_eye_of_the_storm"
+   ]
+  }
+ },
+ "剧毒术士": {
+  "tag": "npc_dota_hero_venomancer",
+  "abilities": {
+   "1": [
+    "venomancer_venomous_gale"
+   ],
+   "2": [
+    "venomancer_poison_sting"
+   ],
+   "3": [
+    "venomancer_plague_ward"
+   ],
+   "6": [
+    "venomancer_poison_nova"
+   ]
+  }
+ },
+ "力丸": {
+  "tag": "npc_dota_hero_riki",
+  "abilities": {
+   "1": [
+    "riki_smoke_screen"
+   ],
+   "2": [
+    "riki_blink_strike"
+   ],
+   "3": [
+    "riki_permanent_invisibility"
+   ],
+   "6": [
+    "riki_tricks_of_the_trade"
+   ]
+  }
+ },
+ "半人马战行者": {
+  "tag": "npc_dota_hero_centaur",
+  "abilities": {
+   "1": [
+    "centaur_hoof_stomp"
+   ],
+   "2": [
+    "centaur_double_edge"
+   ],
+   "3": [
+    "centaur_return"
+   ],
+   "6": [
+    "centaur_stampede"
+   ]
+  }
+ },
+ "卓尔游侠": {
+  "tag": "npc_dota_hero_drow_ranger",
+  "abilities": {
+   "1": [
+    "drow_ranger_frost_arrows"
+   ],
+   "2": [
+    "drow_ranger_wave_of_silence"
+   ],
+   "3": [
+    "drow_ranger_trueshot"
+   ],
+   "6": [
+    "drow_ranger_marksmanship"
+   ]
+  }
+ },
+ "发条技师": {
+  "tag": "npc_dota_hero_rattletrap",
+  "abilities": {
+   "1": [
+    "rattletrap_battery_assault"
+   ],
+   "2": [
+    "rattletrap_power_cogs"
+   ],
+   "3": [
+    "rattletrap_rocket_flare"
+   ],
+   "6": [
+    "rattletrap_hookshot"
+   ]
+  }
+ },
+ "变体精灵": {
+  "tag": "npc_dota_hero_morphling",
+  "abilities": {
+   "1": [
+    "morphling_waveform"
+   ],
+   "2": [
+    "morphling_adaptive_strike_agi",
+    "morphling_adaptive_strike_str"
+   ],
+   "3": [
+    "morphling_morph_agi",
+    "morphling_morph_str"
+   ],
+   "6": [
+    "morphling_replicate",
+    "morphling_morph"
+   ]
+  }
+ },
+ "司夜刺客": {
+  "tag": "npc_dota_hero_nyx_assassin",
+  "abilities": {
+   "1": [
+    "nyx_assassin_impale"
+   ],
+   "2": [
+    "nyx_assassin_mana_burn"
+   ],
+   "3": [
+    "nyx_assassin_spiked_carapace"
+   ],
+   "6": [
+    "nyx_assassin_vendetta"
+   ]
+  }
+ },
+ "哈斯卡": {
+  "tag": "npc_dota_hero_huskar",
+  "abilities": {
+   "1": [
+    "huskar_inner_fire"
+   ],
+   "2": [
+    "huskar_burning_spear"
+   ],
+   "3": [
+    "huskar_berserkers_blood"
+   ],
+   "6": [
+    "huskar_life_break"
+   ]
+  }
+ },
+ "噬魂鬼": {
+  "tag": "npc_dota_hero_life_stealer",
+  "abilities": {
+   "1": [
+    "life_stealer_rage"
+   ],
+   "2": [
+    "life_stealer_feast"
+   ],
+   "3": [
+    "life_stealer_open_wounds"
+   ],
+   "6": [
+    "life_stealer_infest",
+    "life_stealer_assimilate",
+    "life_stealer_control",
+    "life_stealer_consume",
+    "life_stealer_assimilate_eject"
+   ]
+  }
+ },
+ "圣堂刺客": {
+  "tag": "npc_dota_hero_templar_assassin",
+  "abilities": {
+   "1": [
+    "templar_assassin_refraction"
+   ],
+   "2": [
+    "templar_assassin_meld"
+   ],
+   "3": [
+    "templar_assassin_psi_blades"
+   ],
+   "6": [
+    "templar_assassin_psionic_trap",
+    "templar_assassin_trap",
+    "templar_assassin_trap_teleport"
+   ]
+  }
+ },
+ "复仇之魂": {
+  "tag": "npc_dota_hero_vengefulspirit",
+  "abilities": {
+   "1": [
+    "vengefulspirit_magic_missile"
+   ],
+   "2": [
+    "vengefulspirit_wave_of_terror"
+   ],
+   "3": [
+    "vengefulspirit_command_aura"
+   ],
+   "6": [
+    "vengefulspirit_nether_swap"
+   ]
+  }
+ },
+ "大地之灵": {
+  "tag": "npc_dota_hero_earth_spirit",
+  "abilities": {
+   "1": [
+    "earth_spirit_boulder_smash"
+   ],
+   "2": [
+    "earth_spirit_rolling_boulder"
+   ],
+   "3": [
+    "earth_spirit_geomagnetic_grip"
+   ],
+   "6": [
+    "earth_spirit_magnetize"
+   ]
+  }
+ },
+ "天怒法师": {
+  "tag": "npc_dota_hero_skywrath_mage",
+  "abilities": {
+   "1": [
+    "skywrath_mage_arcane_bolt"
+   ],
+   "2": [
+    "skywrath_mage_concussive_shot"
+   ],
+   "3": [
+    "skywrath_mage_ancient_seal"
+   ],
+   "6": [
+    "skywrath_mage_mystic_flare"
+   ]
+  }
+ },
+ "天涯墨客": {
+  "tag": "npc_dota_hero_grimstroke",
+  "abilities": {
+   "1": [
+    "grimstroke_dark_artistry"
+   ],
+   "2": [
+    "grimstroke_ink_creature"
+   ],
+   "3": [
+    "grimstroke_spirit_walk"
+   ],
+   "6": [
+    "grimstroke_soul_chain",
+    "grimstroke_scepter"
+   ]
+  }
+ },
+ "天穹守望者": {
+  "tag": "npc_dota_hero_arc_warden",
+  "abilities": {
+   "1": [
+    "arc_warden_flux"
+   ],
+   "2": [
+    "arc_warden_magnetic_field"
+   ],
+   "3": [
+    "arc_warden_spark_wraith"
+   ],
+   "6": [
+    "arc_warden_tempest_double",
+    "arc_warden_scepter"
+   ]
+  }
+ },
+ "娜迦海妖": {
+  "tag": "npc_dota_hero_naga_siren",
+  "abilities": {
+   "1": [
+    "naga_siren_mirror_image"
+   ],
+   "2": [
+    "naga_siren_ensnare"
+   ],
+   "3": [
+    "naga_siren_rip_tide"
+   ],
+   "6": [
+    "naga_siren_song_of_the_siren",
+    "naga_siren_song_of_the_siren_cancel"
+   ]
+  }
+ },
+ "孽主": {
+  "tag": "npc_dota_hero_abyssal_underlord",
+  "abilities": {
+   "1": [
+    "abyssal_underlord_firestorm"
+   ],
+   "2": [
+    "abyssal_underlord_pit_of_malice"
+   ],
+   "3": [
+    "abyssal_underlord_atrophy_aura"
+   ],
+   "6": [
+    "abyssal_underlord_dark_rift",
+    "abyssal_underlord_cancel_dark_rift"
+   ]
+  }
+ },
+ "宙斯": {
+  "tag": "npc_dota_hero_zuus",
+  "abilities": {
+   "1": [
+    "zuus_arc_lightning"
+   ],
+   "2": [
+    "zuus_lightning_bolt",
+    "zuus_cloud"
+   ],
+   "3": [
+    "zuus_static_field"
+   ],
+   "6": [
+    "zuus_thundergods_wrath"
+   ]
+  }
+ },
+ "寒冬飞龙": {
+  "tag": "npc_dota_hero_winter_wyvern",
+  "abilities": {
+   "1": [
+    "winter_wyvern_arctic_burn"
+   ],
+   "2": [
+    "winter_wyvern_splinter_blast"
+   ],
+   "3": [
+    "winter_wyvern_cold_embrace"
+   ],
+   "6": [
+    "winter_wyvern_winters_curse"
+   ]
+  }
+ },
+ "小小": {
+  "tag": "npc_dota_hero_tiny",
+  "abilities": {
+   "1": [
+    "tiny_avalanche"
+   ],
+   "2": [
+    "tiny_toss"
+   ],
+   "3": [
+    "tiny_craggy_exterior",
+    "tiny_tree_channel",
+    "tiny_toss_tree"
+   ],
+   "6": [
+    "tiny_grow"
+   ]
+  }
+ },
+ "工程师": {
+  "tag": "npc_dota_hero_techies",
+  "abilities": {
+   "1": [
+    "techies_land_mines"
+   ],
+   "2": [
+    "techies_stasis_trap"
+   ],
+   "3": [
+    "techies_suicide"
+   ],
+   "6": [
+    "techies_remote_mines",
+    "techies_focused_detonate"
+   ]
+  }
+ },
+ "巨牙海民": {
+  "tag": "npc_dota_hero_tusk",
+  "abilities": {
+   "1": [
+    "tusk_ice_shards"
+   ],
+   "2": [
+    "tusk_snowball",
+    "tusk_launch_snowball"
+   ],
+   "3": [
+    "tusk_tag_team"
+   ],
+   "6": [
+    "tusk_walrus_punch",
+    "tusk_walrus_kick"
+   ]
+  }
+ },
+ "巨魔战将": {
+  "tag": "npc_dota_hero_troll_warlord",
+  "abilities": {
+   "1": [
+    "troll_warlord_berserkers_rage"
+   ],
+   "2": [
+    "troll_warlord_whirling_axes_ranged",
+    "troll_warlord_whirling_axes_melee"
+   ],
+   "3": [
+    "troll_warlord_fervor"
+   ],
+   "6": [
+    "troll_warlord_battle_trance"
+   ]
+  }
+ },
+ "巫医": {
+  "tag": "npc_dota_hero_witch_doctor",
+  "abilities": {
+   "1": [
+    "witch_doctor_paralyzing_cask"
+   ],
+   "2": [
+    "witch_doctor_voodoo_restoration"
+   ],
+   "3": [
+    "witch_doctor_maledict"
+   ],
+   "6": [
+    "witch_doctor_death_ward"
+   ]
+  }
+ },
+ "巫妖": {
+  "tag": "npc_dota_hero_lich",
+  "abilities": {
+   "1": [
+    "lich_frost_nova"
+   ],
+   "2": [
+    "lich_frost_shield"
+   ],
+   "3": [
+    "lich_sinister_gaze"
+   ],
+   "6": [
+    "lich_chain_frost"
+   ]
+  }
+ },
+ "帕克": {
+  "tag": "npc_dota_hero_puck",
+  "abilities": {
+   "1": [
+    "puck_illusory_orb",
+    "puck_ethereal_jaunt"
+   ],
+   "2": [
+    "puck_waning_rift"
+   ],
+   "3": [
+    "puck_phase_shift"
+   ],
+   "6": [
+    "puck_dream_coil"
+   ]
+  }
+ },
+ "帕吉": {
+  "tag": "npc_dota_hero_pudge",
+  "abilities": {
+   "1": [
+    "pudge_meat_hook"
+   ],
+   "2": [
+    "pudge_rot"
+   ],
+   "3": [
+    "pudge_flesh_heap"
+   ],
+   "6": [
+    "pudge_dismember"
+   ]
+  }
+ },
+ "帕格纳": {
+  "tag": "npc_dota_hero_pugna",
+  "abilities": {
+   "1": [
+    "pugna_nether_blast"
+   ],
+   "2": [
+    "pugna_decrepify"
+   ],
+   "3": [
+    "pugna_nether_ward"
+   ],
+   "6": [
+    "pugna_life_drain"
+   ]
+  }
+ },
+ "干扰者": {
+  "tag": "npc_dota_hero_disruptor",
+  "abilities": {
+   "1": [
+    "disruptor_thunder_strike"
+   ],
+   "2": [
+    "disruptor_glimpse"
+   ],
+   "3": [
+    "disruptor_kinetic_field"
+   ],
+   "6": [
+    "disruptor_static_storm"
+   ]
+  }
+ },
+ "幻影刺客": {
+  "tag": "npc_dota_hero_phantom_assassin",
+  "abilities": {
+   "1": [
+    "phantom_assassin_stifling_dagger"
+   ],
+   "2": [
+    "phantom_assassin_phantom_strike"
+   ],
+   "3": [
+    "phantom_assassin_blur"
+   ],
+   "6": [
+    "phantom_assassin_coup_de_grace"
+   ]
+  }
+ },
+ "幻影长矛手": {
+  "tag": "npc_dota_hero_phantom_lancer",
+  "abilities": {
+   "1": [
+    "phantom_lancer_spirit_lance"
+   ],
+   "2": [
+    "phantom_lancer_doppelwalk"
+   ],
+   "3": [
+    "phantom_lancer_phantom_edge"
+   ],
+   "6": [
+    "phantom_lancer_juxtapose"
+   ]
+  }
+ },
+ "幽鬼": {
+  "tag": "npc_dota_hero_spectre",
+  "abilities": {
+   "1": [
+    "spectre_spectral_dagger"
+   ],
+   "2": [
+    "spectre_desolate"
+   ],
+   "3": [
+    "spectre_dispersion"
+   ],
+   "6": [
+    "spectre_haunt",
+    "spectre_reality",
+    "spectre_haunt_single"
+   ]
+  }
+ },
+ "影魔": {
+  "tag": "npc_dota_hero_nevermore",
+  "abilities": {
+   "1": [
+    "nevermore_shadowraze1",
+    "nevermore_shadowraze2",
+    "nevermore_shadowraze2"
+   ],
+   "2": [
+    "nevermore_necromastery"
+   ],
+   "3": [
+    "nevermore_dark_lord"
+   ],
+   "6": [
+    "nevermore_requiem"
+   ]
+  }
+ },
+ "德鲁伊": {
+  "tag": "npc_dota_hero_lone_druid",
+  "abilities": {
+   "1": [
+    "lone_druid_spirit_bear"
+   ],
+   "2": [
+    "lone_druid_spirit_link"
+   ],
+   "3": [
+    "lone_druid_savage_roar"
+   ],
+   "6": [
+    "lone_druid_true_form",
+    "lone_druid_true_form_druid",
+    "lone_druid_true_form_battle_cry"
+   ]
+  }
+ },
+ "恐怖利刃": {
+  "tag": "npc_dota_hero_terrorblade",
+  "abilities": {
+   "1": [
+    "terrorblade_reflection"
+   ],
+   "2": [
+    "terrorblade_conjure_image"
+   ],
+   "3": [
+    "terrorblade_metamorphosis"
+   ],
+   "6": [
+    "terrorblade_sunder"
+   ]
+  }
+ },
+ "戴泽": {
+  "tag": "npc_dota_hero_dazzle",
+  "abilities": {
+   "1": [
+    "dazzle_poison_touch"
+   ],
+   "2": [
+    "dazzle_shallow_grave"
+   ],
+   "3": [
+    "dazzle_shadow_wave"
+   ],
+   "6": [
+    "dazzle_bad_juju"
+   ]
+  }
+ },
+ "拉席克": {
+  "tag": "npc_dota_hero_leshrac",
+  "abilities": {
+   "1": [
+    "leshrac_split_earth"
+   ],
+   "2": [
+    "leshrac_diabolic_edict"
+   ],
+   "3": [
+    "leshrac_lightning_storm"
+   ],
+   "6": [
+    "leshrac_pulse_nova"
+   ]
+  }
+ },
+ "拉比克": {
+  "tag": "npc_dota_hero_rubick",
+  "abilities": {
+   "1": [
+    "rubick_telekinesis",
+    "rubick_telekinesis_land"
+   ],
+   "2": [
+    "rubick_fade_bolt"
+   ],
+   "3": [
+    "rubick_arcane_supremacy"
+   ],
+   "6": [
+    "rubick_spell_steal",
+    "rubick_empty1",
+    "rubick_empty2"
+   ]
+  }
+ },
+ "撼地者": {
+  "tag": "npc_dota_hero_earthshaker",
+  "abilities": {
+   "1": [
+    "earthshaker_fissure"
+   ],
+   "2": [
+    "earthshaker_enchant_totem"
+   ],
+   "3": [
+    "earthshaker_aftershock"
+   ],
+   "6": [
+    "earthshaker_echo_slam"
+   ]
+  }
+ },
+ "敌法师": {
+  "tag": "npc_dota_hero_antimage",
+  "abilities": {
+   "1": [
+    "antimage_mana_break"
+   ],
+   "2": [
+    "antimage_blink"
+   ],
+   "3": [
+    "antimage_counterspell"
+   ],
+   "6": [
+    "antimage_mana_void"
+   ]
+  }
+ },
+ "斧王": {
+  "tag": "npc_dota_hero_axe",
+  "abilities": {
+   "1": [
+    "axe_berserkers_call"
+   ],
+   "2": [
+    "axe_battle_hunger"
+   ],
+   "3": [
+    "axe_counter_helix"
+   ],
+   "6": [
+    "axe_culling_blade"
+   ]
+  }
+ },
+ "斯拉克": {
+  "tag": "npc_dota_hero_slark",
+  "abilities": {
+   "1": [
+    "slark_dark_pact"
+   ],
+   "2": [
+    "slark_pounce"
+   ],
+   "3": [
+    "slark_essence_shift"
+   ],
+   "6": [
+    "slark_shadow_dance"
+   ]
+  }
+ },
+ "斯拉达": {
+  "tag": "npc_dota_hero_slardar",
+  "abilities": {
+   "1": [
+    "slardar_sprint"
+   ],
+   "2": [
+    "slardar_slithereen_crush"
+   ],
+   "3": [
+    "slardar_bash"
+   ],
+   "6": [
+    "slardar_amplify_damage"
+   ]
+  }
+ },
+ "斯温": {
+  "tag": "npc_dota_hero_sven",
+  "abilities": {
+   "1": [
+    "sven_storm_bolt"
+   ],
+   "2": [
+    "sven_great_cleave"
+   ],
+   "3": [
+    "sven_warcry"
+   ],
+   "6": [
+    "sven_gods_strength"
+   ]
+  }
+ },
+ "昆卡": {
+  "tag": "npc_dota_hero_kunkka",
+  "abilities": {
+   "1": [
+    "kunkka_torrent"
+   ],
+   "2": [
+    "kunkka_tidebringer"
+   ],
+   "3": [
+    "kunkka_x_marks_the_spot",
+    "kunkka_return"
+   ],
+   "6": [
+    "kunkka_ghostship"
+   ]
+  }
+ },
+ "暗夜魔王": {
+  "tag": "npc_dota_hero_night_stalker",
+  "abilities": {
+   "1": [
+    "night_stalker_void"
+   ],
+   "2": [
+    "night_stalker_crippling_fear"
+   ],
+   "3": [
+    "night_stalker_hunter_in_the_night"
+   ],
+   "6": [
+    "night_stalker_darkness"
+   ]
+  }
+ },
+ "暗影恶魔": {
+  "tag": "npc_dota_hero_shadow_demon",
+  "abilities": {
+   "1": [
+    "shadow_demon_disruption"
+   ],
+   "2": [
+    "shadow_demon_soul_catcher"
+   ],
+   "3": [
+    "shadow_demon_shadow_poison",
+    "shadow_demon_shadow_poison_release"
+   ],
+   "6": null
+  }
+ },
+ "暗影萨满": {
+  "tag": "npc_dota_hero_shadow_shaman",
+  "abilities": {
+   "1": [
+    "shadow_shaman_ether_shock"
+   ],
+   "2": [
+    "shadow_shaman_voodoo"
+   ],
+   "3": [
+    "shadow_shaman_shackles"
+   ],
+   "6": [
+    "shadow_shaman_mass_serpent_ward"
+   ]
+  }
+ },
+ "末日使者": {
+  "tag": "npc_dota_hero_doom_bringer",
+  "abilities": {
+   "1": [
+    "doom_bringer_devour",
+    "doom_bringer_empty1",
+    "doom_bringer_empty2"
+   ],
+   "2": [
+    "doom_bringer_scorched_earth"
+   ],
+   "3": [
+    "doom_bringer_infernal_blade"
+   ],
+   "6": [
+    "doom_bringer_doom"
+   ]
+  }
+ },
+ "术士": {
+  "tag": "npc_dota_hero_warlock",
+  "abilities": {
+   "1": [
+    "warlock_fatal_bonds"
+   ],
+   "2": [
+    "warlock_shadow_word"
+   ],
+   "3": [
+    "warlock_upheaval"
+   ],
+   "6": [
+    "warlock_rain_of_chaos"
+   ]
+  }
+ },
+ "杰奇洛": {
+  "tag": "npc_dota_hero_jakiro",
+  "abilities": {
+   "1": [
+    "jakiro_dual_breath"
+   ],
+   "2": [
+    "jakiro_ice_path"
+   ],
+   "3": [
+    "jakiro_liquid_fire"
+   ],
+   "6": [
+    "jakiro_macropyre"
+   ]
+  }
+ },
+ "树精卫士": {
+  "tag": "npc_dota_hero_treant",
+  "abilities": {
+   "1": [
+    "treant_natures_guise"
+   ],
+   "2": [
+    "treant_leech_seed"
+   ],
+   "3": [
+    "treant_living_armor"
+   ],
+   "6": [
+    "treant_overgrowth"
+   ]
+  }
+ },
+ "死亡先知": {
+  "tag": "npc_dota_hero_death_prophet",
+  "abilities": {
+   "1": [
+    "death_prophet_carrion_swarm"
+   ],
+   "2": [
+    "death_prophet_silence"
+   ],
+   "3": [
+    "death_prophet_spirit_siphon"
+   ],
+   "6": [
+    "death_prophet_exorcism"
+   ]
+  }
+ },
+ "殁境神蚀者": {
+  "tag": "npc_dota_hero_obsidian_destroyer",
+  "abilities": {
+   "1": [
+    "obsidian_destroyer_arcane_orb"
+   ],
+   "2": [
+    "obsidian_destroyer_astral_imprisonment"
+   ],
+   "3": [
+    "obsidian_destroyer_equilibrium"
+   ],
+   "6": [
+    "obsidian_destroyer_sanity_eclipse"
+   ]
+  }
+ },
+ "水晶室女": {
+  "tag": "npc_dota_hero_crystal_maiden",
+  "abilities": {
+   "1": [
+    "crystal_maiden_crystal_nova"
+   ],
+   "2": [
+    "crystal_maiden_frostbite"
+   ],
+   "3": [
+    "crystal_maiden_brilliance_aura"
+   ],
+   "6": [
+    "crystal_maiden_freezing_field"
+   ]
+  }
+ },
+ "沉默术士": {
+  "tag": "npc_dota_hero_silencer",
+  "abilities": {
+   "1": [
+    "silencer_curse_of_the_silent"
+   ],
+   "2": [
+    "silencer_glaives_of_wisdom"
+   ],
+   "3": [
+    "silencer_last_word"
+   ],
+   "6": [
+    "silencer_global_silence"
+   ]
+  }
+ },
+ "沙王": {
+  "tag": "npc_dota_hero_sand_king",
+  "abilities": {
+   "1": [
+    "sandking_burrowstrike"
+   ],
+   "2": [
+    "sandking_sand_storm"
+   ],
+   "3": [
+    "sandking_caustic_finale"
+   ],
+   "6": [
+    "sandking_epicenter"
+   ]
+  }
+ },
+ "混沌骑士": {
+  "tag": "npc_dota_hero_chaos_knight",
+  "abilities": {
+   "1": [
+    "chaos_knight_chaos_bolt"
+   ],
+   "2": [
+    "chaos_knight_reality_rift"
+   ],
+   "3": [
+    "chaos_knight_chaos_strike"
+   ],
+   "6": [
+    "chaos_knight_phantasm"
+   ]
+  }
+ },
+ "潮汐猎人": {
+  "tag": "npc_dota_hero_tidehunter",
+  "abilities": {
+   "1": [
+    "tidehunter_gush"
+   ],
+   "2": [
+    "tidehunter_kraken_shell"
+   ],
+   "3": [
+    "tidehunter_anchor_smash"
+   ],
+   "6": [
+    "tidehunter_ravage"
+   ]
+  }
+ },
+ "灰烬之灵": {
+  "tag": "npc_dota_hero_ember_spirit",
+  "abilities": {
+   "1": [
+    "ember_spirit_searing_chains"
+   ],
+   "2": [
+    "ember_spirit_sleight_of_fist"
+   ],
+   "3": [
+    "ember_spirit_flame_guard"
+   ],
+   "6": [
+    "ember_spirit_fire_remnant",
+    "ember_spirit_activate_fire_remnant"
+   ]
+  }
+ },
+ "炼金术士": {
+  "tag": "npc_dota_hero_alchemist",
+  "abilities": {
+   "1": [
+    "alchemist_acid_spray"
+   ],
+   "2": [
+    "alchemist_unstable_concoction"
+   ],
+   "3": [
+    "alchemist_goblins_greed"
+   ],
+   "6": [
+    "alchemist_chemical_rage"
+   ]
+  }
+ },
+ "熊战士": {
+  "tag": "npc_dota_hero_ursa",
+  "abilities": {
+   "1": [
+    "ursa_earthshock"
+   ],
+   "2": [
+    "ursa_overpower"
+   ],
+   "3": [
+    "ursa_fury_swipes"
+   ],
+   "6": [
+    "ursa_enrage"
+   ]
+  }
+ },
+ "狙击手": {
+  "tag": "npc_dota_hero_sniper",
+  "abilities": {
+   "1": [
+    "sniper_shrapnel"
+   ],
+   "2": [
+    "sniper_headshot"
+   ],
+   "3": [
+    "sniper_take_aim"
+   ],
+   "6": [
+    "sniper_assassinate"
+   ]
+  }
+ },
+ "狼人": {
+  "tag": "npc_dota_hero_lycan",
+  "abilities": {
+   "1": [
+    "lycan_summon_wolves"
+   ],
+   "2": [
+    "lycan_howl"
+   ],
+   "3": [
+    "lycan_feral_impulse"
+   ],
+   "6": [
+    "lycan_shapeshift"
+   ]
+  }
+ },
+ "玛尔斯": {
+  "tag": "npc_dota_hero_mars",
+  "abilities": {
+   "1": [
+    "mars_spear"
+   ],
+   "2": [
+    "mars_gods_rebuke"
+   ],
+   "3": [
+    "mars_bulwark"
+   ],
+   "6": [
+    "mars_arena_of_blood"
+   ]
+  }
+ },
+ "痛苦女王": {
+  "tag": "npc_dota_hero_queenofpain",
+  "abilities": {
+   "1": [
+    "queenofpain_shadow_strike"
+   ],
+   "2": [
+    "queenofpain_blink"
+   ],
+   "3": [
+    "queenofpain_scream_of_pain"
+   ],
+   "6": [
+    "queenofpain_sonic_wave"
+   ]
+  }
+ },
+ "瘟疫法师": {
+  "tag": "npc_dota_hero_necrolyte",
+  "abilities": {
+   "1": [
+    "necrolyte_death_pulse"
+   ],
+   "2": [
+    "necrolyte_sadist"
+   ],
+   "3": [
+    "necrolyte_heartstopper_aura"
+   ],
+   "6": [
+    "necrolyte_reapers_scythe"
+   ]
+  }
+ },
+ "矮人直升机": {
+  "tag": "npc_dota_hero_gyrocopter",
+  "abilities": {
+   "1": [
+    "gyrocopter_rocket_barrage"
+   ],
+   "2": [
+    "gyrocopter_homing_missile"
+   ],
+   "3": [
+    "gyrocopter_flak_cannon"
+   ],
+   "6": [
+    "gyrocopter_call_down"
+   ]
+  }
+ },
+ "石鳞剑士": {
+  "tag": "npc_dota_hero_pangolier",
+  "abilities": {
+   "1": [
+    "pangolier_swashbuckle"
+   ],
+   "2": [
+    "pangolier_shield_crash"
+   ],
+   "3": [
+    "pangolier_lucky_shot"
+   ],
+   "6": [
+    "pangolier_gyroshell",
+    "pangolier_gyroshell_stop"
+   ]
+  }
+ },
+ "祈求者": {
+  "tag": "npc_dota_hero_invoker",
+  "abilities": {
+   "1": [
+    "invoker_quas"
+   ],
+   "2": [
+    "invoker_wex"
+   ],
+   "3": [
+    "invoker_exort"
+   ],
+   "6": [
+    "invoker_invoke"
+   ]
+  }
+ },
+ "神谕者": {
+  "tag": "npc_dota_hero_oracle",
+  "abilities": {
+   "1": [
+    "oracle_fortunes_end"
+   ],
+   "2": [
+    "oracle_fates_edict"
+   ],
+   "3": [
+    "oracle_purifying_flames"
+   ],
+   "6": [
+    "oracle_false_promise"
+   ]
+  }
+ },
+ "祸乱之源": {
+  "tag": "npc_dota_hero_bane",
+  "abilities": {
+   "1": [
+    "bane_enfeeble"
+   ],
+   "2": [
+    "bane_brain_sap"
+   ],
+   "3": [
+    "bane_nightmare",
+    "bane_nightmare_end"
+   ],
+   "6": [
+    "bane_fiends_grip"
+   ]
+  }
+ },
+ "米拉娜": {
+  "tag": "npc_dota_hero_mirana",
+  "abilities": {
+   "1": [
+    "mirana_starfall"
+   ],
+   "2": [
+    "mirana_arrow"
+   ],
+   "3": [
+    "mirana_leap"
+   ],
+   "6": [
+    "mirana_invis"
+   ]
+  }
+ },
+ "米波": {
+  "tag": "npc_dota_hero_meepo",
+  "abilities": {
+   "1": [
+    "meepo_earthbind"
+   ],
+   "2": [
+    "meepo_poof"
+   ],
+   "3": [
+    "meepo_ransack"
+   ],
+   "6": [
+    "meepo_divided_we_stand"
+   ]
+  }
+ },
+ "维萨吉": {
+  "tag": "npc_dota_hero_visage",
+  "abilities": {
+   "1": [
+    "visage_grave_chill"
+   ],
+   "2": [
+    "visage_soul_assumption"
+   ],
+   "3": [
+    "visage_gravekeepers_cloak"
+   ],
+   "6": [
+    "visage_summon_familiars",
+    "visage_stone_form_self_cast"
+   ]
+  }
+ },
+ "编织者": {
+  "tag": "npc_dota_hero_weaver",
+  "abilities": {
+   "1": [
+    "weaver_the_swarm"
+   ],
+   "2": [
+    "weaver_shukuchi"
+   ],
+   "3": [
+    "weaver_geminate_attack"
+   ],
+   "6": [
+    "weaver_time_lapse"
+   ]
+  }
+ },
+ "美杜莎": {
+  "tag": "npc_dota_hero_medusa",
+  "abilities": {
+   "1": [
+    "medusa_split_shot"
+   ],
+   "2": [
+    "medusa_mystic_snake"
+   ],
+   "3": [
+    "medusa_mana_shield"
+   ],
+   "6": [
+    "medusa_stone_gaze"
+   ]
+  }
+ },
+ "育母蜘蛛": {
+  "tag": "npc_dota_hero_broodmother",
+  "abilities": {
+   "1": [
+    "broodmother_spawn_spiderlings"
+   ],
+   "2": [
+    "broodmother_spin_web"
+   ],
+   "3": [
+    "broodmother_incapacitating_bite"
+   ],
+   "6": [
+    "broodmother_insatiable_hunger"
+   ]
+  }
+ },
+ "艾欧": {
+  "tag": "npc_dota_hero_wisp",
+  "abilities": {
+   "1": [
+    "wisp_tether",
+    "wisp_tether_break"
+   ],
+   "2": [
+    "wisp_spirits",
+    "wisp_spirits_in"
+   ],
+   "3": [
+    "wisp_overcharge"
+   ],
+   "6": [
+    "wisp_relocate"
+   ]
+  }
+ },
+ "莉娜": {
+  "tag": "npc_dota_hero_lina",
+  "abilities": {
+   "1": [
+    "lina_dragon_slave"
+   ],
+   "2": [
+    "lina_light_strike_array"
+   ],
+   "3": [
+    "lina_fiery_soul"
+   ],
+   "6": [
+    "lina_laguna_blade"
+   ]
+  }
+ },
+ "莱恩": {
+  "tag": "npc_dota_hero_lion",
+  "abilities": {
+   "1": [
+    "lion_impale"
+   ],
+   "2": [
+    "lion_voodoo"
+   ],
+   "3": [
+    "lion_mana_drain"
+   ],
+   "6": [
+    "lion_finger_of_death"
+   ]
+  }
+ },
+ "虚空假面": {
+  "tag": "npc_dota_hero_faceless_void",
+  "abilities": {
+   "1": [
+    "faceless_void_time_walk"
+   ],
+   "2": [
+    "faceless_void_time_dilation"
+   ],
+   "3": [
+    "faceless_void_time_lock"
+   ],
+   "6": [
+    "faceless_void_chronosphere"
+   ]
+  }
+ },
+ "蝙蝠骑士": {
+  "tag": "npc_dota_hero_batrider",
+  "abilities": {
+   "1": [
+    "batrider_sticky_napalm"
+   ],
+   "2": [
+    "batrider_flamebreak"
+   ],
+   "3": [
+    "batrider_firefly"
+   ],
+   "6": [
+    "batrider_flaming_lasso"
+   ]
+  }
+ },
+ "血魔": {
+  "tag": "npc_dota_hero_bloodseeker",
+  "abilities": {
+   "1": [
+    "bloodseeker_bloodrage"
+   ],
+   "2": [
+    "bloodseeker_blood_bath"
+   ],
+   "3": [
+    "bloodseeker_thirst"
+   ],
+   "6": [
+    "bloodseeker_rupture"
+   ]
+  }
+ },
+ "裂魂人": {
+  "tag": "npc_dota_hero_spirit_breaker",
+  "abilities": {
+   "1": [
+    "spirit_breaker_charge_of_darkness"
+   ],
+   "2": [
+    "spirit_breaker_bulldoze"
+   ],
+   "3": [
+    "spirit_breaker_greater_bash"
+   ],
+   "6": [
+    "spirit_breaker_nether_strike"
+   ]
+  }
+ },
+ "谜团": {
+  "tag": "npc_dota_hero_enigma",
+  "abilities": {
+   "1": [
+    "enigma_malefice"
+   ],
+   "2": [
+    "enigma_demonic_conversion"
+   ],
+   "3": [
+    "enigma_midnight_pulse"
+   ],
+   "6": [
+    "enigma_black_hole"
+   ]
+  }
+ },
+ "赏金猎人": {
+  "tag": "npc_dota_hero_bounty_hunter",
+  "abilities": {
+   "1": [
+    "bounty_hunter_shuriken_toss"
+   ],
+   "2": [
+    "bounty_hunter_jinada"
+   ],
+   "3": [
+    "bounty_hunter_wind_walk"
+   ],
+   "6": [
+    "bounty_hunter_track"
+   ]
+  }
+ },
+ "远古冰魄": {
+  "tag": "npc_dota_hero_ancient_apparition",
+  "abilities": {
+   "1": [
+    "ancient_apparition_cold_feet"
+   ],
+   "2": [
+    "ancient_apparition_ice_vortex"
+   ],
+   "3": [
+    "ancient_apparition_chilling_touch"
+   ],
+   "6": [
+    "ancient_apparition_ice_blast"
+   ]
+  }
+ },
+ "邪影芳灵": {
+  "tag": "npc_dota_hero_dark_willow",
+  "abilities": {
+   "1": [
+    "dark_willow_bramble_maze"
+   ],
+   "2": [
+    "dark_willow_shadow_realm"
+   ],
+   "3": [
+    "dark_willow_cursed_crown"
+   ],
+   "6": [
+    "dark_willow_terrorize",
+    "dark_willow_bedlam"
+   ]
+  }
+ },
+ "酒仙": {
+  "tag": "npc_dota_hero_brewmaster",
+  "abilities": {
+   "1": [
+    "brewmaster_thunder_clap"
+   ],
+   "2": [
+    "brewmaster_cinder_brew"
+   ],
+   "3": [
+    "brewmaster_drunken_brawler"
+   ],
+   "6": [
+    "brewmaster_primal_split"
+   ]
+  }
+ },
+ "钢背兽": {
+  "tag": "npc_dota_hero_bristleback",
+  "abilities": {
+   "1": [
+    "bristleback_viscous_nasal_goo"
+   ],
+   "2": [
+    "bristleback_quill_spray"
+   ],
+   "3": [
+    "bristleback_bristleback"
+   ],
+   "6": [
+    "bristleback_warpath"
+   ]
+  }
+ },
+ "陈": {
+  "tag": "npc_dota_hero_chen",
+  "abilities": {
+   "1": [
+    "chen_penitence"
+   ],
+   "2": [
+    "chen_holy_persuasion"
+   ],
+   "3": [
+    "chen_divine_favor"
+   ],
+   "6": [
+    "chen_hand_of_god"
+   ]
+  }
+ },
+ "露娜": {
+  "tag": "npc_dota_hero_luna",
+  "abilities": {
+   "1": [
+    "luna_lucent_beam"
+   ],
+   "2": [
+    "luna_moon_glaive"
+   ],
+   "3": [
+    "luna_lunar_blessing"
+   ],
+   "6": [
+    "luna_eclipse"
+   ]
+  }
+ },
+ "风暴之灵": {
+  "tag": "npc_dota_hero_storm_spirit",
+  "abilities": {
+   "1": [
+    "storm_spirit_static_remnant"
+   ],
+   "2": [
+    "storm_spirit_electric_vortex"
+   ],
+   "3": [
+    "storm_spirit_overload"
+   ],
+   "6": [
+    "storm_spirit_ball_lightning"
+   ]
+  }
+ },
+ "风行者": {
+  "tag": "npc_dota_hero_windrunner",
+  "abilities": {
+   "1": [
+    "windrunner_shackleshot"
+   ],
+   "2": [
+    "windrunner_powershot"
+   ],
+   "3": [
+    "windrunner_windrun"
+   ],
+   "6": [
+    "windrunner_focusfire"
+   ]
+  }
+ },
+ "食人魔魔法师": {
+  "tag": "npc_dota_hero_ogre_magi",
+  "abilities": {
+   "1": [
+    "ogre_magi_fireblast"
+   ],
+   "2": [
+    "ogre_magi_ignite"
+   ],
+   "3": [
+    "ogre_magi_bloodlust",
+    "ogre_magi_unrefined_fireblast"
+   ],
+   "6": [
+    "ogre_magi_multicast"
+   ]
+  }
+ },
+ "马格纳斯": {
+  "tag": "npc_dota_hero_magnataur",
+  "abilities": {
+   "1": [
+    "magnataur_shockwave"
+   ],
+   "2": [
+    "magnataur_empower"
+   ],
+   "3": [
+    "magnataur_skewer"
+   ],
+   "6": [
+    "magnataur_reverse_polarity"
+   ]
+  }
+ },
+ "魅惑魔女": {
+  "tag": "npc_dota_hero_enchantress",
+  "abilities": {
+   "1": [
+    "enchantress_untouchable"
+   ],
+   "2": [
+    "enchantress_enchant"
+   ],
+   "3": [
+    "enchantress_natures_attendants"
+   ],
+   "6": [
+    "enchantress_impetus"
+   ]
+  }
+ },
+ "黑暗贤者": {
+  "tag": "npc_dota_hero_dark_seer",
+  "abilities": {
+   "1": [
+    "dark_seer_vacuum"
+   ],
+   "2": [
+    "dark_seer_ion_shell"
+   ],
+   "3": [
+    "dark_seer_surge"
+   ],
+   "6": [
+    "dark_seer_wall_of_replica"
+   ]
+  }
+ },
+ "齐天大圣": {
+  "tag": "npc_dota_hero_monkey_king",
+  "abilities": {
+   "1": [
+    "monkey_king_boundless_strike"
+   ],
+   "2": [
+    "monkey_king_tree_dance",
+    "monkey_king_primal_spring",
+    "monkey_king_primal_spring_early"
+   ],
+   "3": [
+    "monkey_king_jingu_mastery"
+   ],
+   "6": [
+    "monkey_king_wukongs_command"
+   ]
+  }
+ },
+ "龙骑士": {
+  "tag": "npc_dota_hero_dragon_knight",
+  "abilities": {
+   "1": [
+    "dragon_knight_breathe_fire"
+   ],
+   "2": [
+    "dragon_knight_dragon_tail"
+   ],
+   "3": [
+    "dragon_knight_dragon_blood"
+   ],
+   "6": [
+    "dragon_knight_elder_dragon_form"
+   ]
+  }
+ }
+}

@@ -34,9 +34,16 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>drow.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -86,6 +93,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="HeroAbilities.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -93,6 +104,130 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\20px-Abaddon_minimap_icon.jpg" />
+    <Resource Include="images\20px-Alchemist_minimap_icon.jpg" />
+    <Resource Include="images\20px-Ancient_Apparition_minimap_icon.jpg" />
+    <Resource Include="images\20px-Anti-Mage_minimap_icon.jpg" />
+    <Resource Include="images\20px-Arc_Warden_minimap_icon.jpg" />
+    <Resource Include="images\20px-Axe_minimap_icon.jpg" />
+    <Resource Include="images\20px-Bane_minimap_icon.jpg" />
+    <Resource Include="images\20px-Batrider_minimap_icon.jpg" />
+    <Resource Include="images\20px-Beastmaster_minimap_icon.jpg" />
+    <Resource Include="images\20px-Bloodseeker_minimap_icon.jpg" />
+    <Resource Include="images\20px-Bounty_Hunter_minimap_icon.jpg" />
+    <Resource Include="images\20px-Brewmaster_minimap_icon.jpg" />
+    <Resource Include="images\20px-Bristleback_minimap_icon.jpg" />
+    <Resource Include="images\20px-Broodmother_minimap_icon.jpg" />
+    <Resource Include="images\20px-Centaur_Warrunner_minimap_icon.jpg" />
+    <Resource Include="images\20px-Chaos_Knight_minimap_icon.jpg" />
+    <Resource Include="images\20px-Chen_minimap_icon.jpg" />
+    <Resource Include="images\20px-Clinkz_minimap_icon.jpg" />
+    <Resource Include="images\20px-Clockwerk_minimap_icon.jpg" />
+    <Resource Include="images\20px-Crystal_Maiden_minimap_icon.jpg" />
+    <Resource Include="images\20px-Dark_Seer_minimap_icon.jpg" />
+    <Resource Include="images\20px-Dark_Willow_minimap_icon.jpg" />
+    <Resource Include="images\20px-Dazzle_minimap_icon.jpg" />
+    <Resource Include="images\20px-Death_Prophet_minimap_icon.jpg" />
+    <Resource Include="images\20px-Disruptor_minimap_icon.jpg" />
+    <Resource Include="images\20px-Doom_minimap_icon.jpg" />
+    <Resource Include="images\20px-Dragon_Knight_minimap_icon.jpg" />
+    <Resource Include="images\20px-Drow_Ranger_minimap_icon.jpg" />
+    <Resource Include="images\20px-Earthshaker_minimap_icon.jpg" />
+    <Resource Include="images\20px-Earth_Spirit_minimap_icon.jpg" />
+    <Resource Include="images\20px-Elder_Titan_minimap_icon.jpg" />
+    <Resource Include="images\20px-Ember_Spirit_minimap_icon.jpg" />
+    <Resource Include="images\20px-Enchantress_minimap_icon.jpg" />
+    <Resource Include="images\20px-Enigma_minimap_icon.jpg" />
+    <Resource Include="images\20px-Faceless_Void_minimap_icon.jpg" />
+    <Resource Include="images\20px-Grimstroke_minimap_icon.jpg" />
+    <Resource Include="images\20px-Gyrocopter_minimap_icon.jpg" />
+    <Resource Include="images\20px-Huskar_minimap_icon.jpg" />
+    <Resource Include="images\20px-Invoker_minimap_icon.jpg" />
+    <Resource Include="images\20px-Io_minimap_icon.jpg" />
+    <Resource Include="images\20px-Jakiro_minimap_icon.jpg" />
+    <Resource Include="images\20px-Juggernaut_minimap_icon.jpg" />
+    <Resource Include="images\20px-Keeper_of_the_Light_minimap_icon.jpg" />
+    <Resource Include="images\20px-Kunkka_minimap_icon.jpg" />
+    <Resource Include="images\20px-Legion_Commander_minimap_icon.jpg" />
+    <Resource Include="images\20px-Leshrac_minimap_icon.jpg" />
+    <Resource Include="images\20px-Lich_minimap_icon.jpg" />
+    <Resource Include="images\20px-Lifestealer_minimap_icon.jpg" />
+    <Resource Include="images\20px-Lina_minimap_icon.jpg" />
+    <Resource Include="images\20px-Lion_minimap_icon.jpg" />
+    <Resource Include="images\20px-Lone_Druid_minimap_icon.jpg" />
+    <Resource Include="images\20px-Luna_minimap_icon.jpg" />
+    <Resource Include="images\20px-Lycan_minimap_icon.jpg" />
+    <Resource Include="images\20px-Magnus_minimap_icon.jpg" />
+    <Resource Include="images\20px-Mars_minimap_icon.jpg" />
+    <Resource Include="images\20px-Medusa_minimap_icon.jpg" />
+    <Resource Include="images\20px-Meepo_minimap_icon.jpg" />
+    <Resource Include="images\20px-Mirana_minimap_icon.jpg" />
+    <Resource Include="images\20px-Monkey_King_minimap_icon.jpg" />
+    <Resource Include="images\20px-Morphling_minimap_icon.jpg" />
+    <Resource Include="images\20px-Naga_Siren_minimap_icon.jpg" />
+    <Resource Include="images\20px-Necrophos_minimap_icon.jpg" />
+    <Resource Include="images\20px-Night_Stalker_minimap_icon.jpg" />
+    <Resource Include="images\20px-Nyx_Assassin_minimap_icon.jpg" />
+    <Resource Include="images\20px-Ogre_Magi_minimap_icon.jpg" />
+    <Resource Include="images\20px-Omniknight_minimap_icon.jpg" />
+    <Resource Include="images\20px-Oracle_minimap_icon.jpg" />
+    <Resource Include="images\20px-Outworld_Devourer_minimap_icon.jpg" />
+    <Resource Include="images\20px-Pangolier_minimap_icon.jpg" />
+    <Resource Include="images\20px-Phantom_Assassin_minimap_icon.jpg" />
+    <Resource Include="images\20px-Phantom_Lancer_minimap_icon.jpg" />
+    <Resource Include="images\20px-Phoenix_minimap_icon.jpg" />
+    <Resource Include="images\20px-Puck_minimap_icon.jpg" />
+    <Resource Include="images\20px-Pudge_minimap_icon.jpg" />
+    <Resource Include="images\20px-Pugna_minimap_icon.jpg" />
+    <Resource Include="images\20px-Queen_of_Pain_minimap_icon.jpg" />
+    <Resource Include="images\20px-Razor_minimap_icon.jpg" />
+    <Resource Include="images\20px-Riki_minimap_icon.jpg" />
+    <Resource Include="images\20px-Rubick_minimap_icon.jpg" />
+    <Resource Include="images\20px-Sand_King_minimap_icon.jpg" />
+    <Resource Include="images\20px-Shadow_Demon_minimap_icon.jpg" />
+    <Resource Include="images\20px-Shadow_Fiend_minimap_icon.jpg" />
+    <Resource Include="images\20px-Shadow_Shaman_minimap_icon.jpg" />
+    <Resource Include="images\20px-Silencer_minimap_icon.jpg" />
+    <Resource Include="images\20px-Skywrath_Mage_minimap_icon.jpg" />
+    <Resource Include="images\20px-Slardar_minimap_icon.jpg" />
+    <Resource Include="images\20px-Slark_minimap_icon.jpg" />
+    <Resource Include="images\20px-Sniper_minimap_icon.jpg" />
+    <Resource Include="images\20px-Spectre_minimap_icon.jpg" />
+    <Resource Include="images\20px-Spirit_Breaker_minimap_icon.jpg" />
+    <Resource Include="images\20px-Storm_Spirit_minimap_icon.jpg" />
+    <Resource Include="images\20px-Sven_minimap_icon.jpg" />
+    <Resource Include="images\20px-Techies_minimap_icon.jpg" />
+    <Resource Include="images\20px-Templar_Assassin_minimap_icon.jpg" />
+    <Resource Include="images\20px-Terrorblade_minimap_icon.jpg" />
+    <Resource Include="images\20px-Tidehunter_minimap_icon.jpg" />
+    <Resource Include="images\20px-Timbersaw_minimap_icon.jpg" />
+    <Resource Include="images\20px-Tinker_minimap_icon.jpg" />
+    <Resource Include="images\20px-Tiny_minimap_icon.jpg" />
+    <Resource Include="images\20px-Treant_Protector_minimap_icon.jpg" />
+    <Resource Include="images\20px-Troll_Warlord_minimap_icon.jpg" />
+    <Resource Include="images\20px-Tusk_minimap_icon.jpg" />
+    <Resource Include="images\20px-Underlord_minimap_icon.jpg" />
+    <Resource Include="images\20px-Undying_minimap_icon.jpg" />
+    <Resource Include="images\20px-Ursa_minimap_icon.jpg" />
+    <Resource Include="images\20px-Vengeful_Spirit_minimap_icon.jpg" />
+    <Resource Include="images\20px-Venomancer_minimap_icon.jpg" />
+    <Resource Include="images\20px-Viper_minimap_icon.jpg" />
+    <Resource Include="images\20px-Visage_minimap_icon.jpg" />
+    <Resource Include="images\20px-Warlock_minimap_icon.jpg" />
+    <Resource Include="images\20px-Weaver_minimap_icon.jpg" />
+    <Resource Include="images\20px-Windranger_minimap_icon.jpg" />
+    <Resource Include="images\20px-Winter_Wyvern_minimap_icon.jpg" />
+    <Resource Include="images\20px-Witch_Doctor_minimap_icon.jpg" />
+    <Resource Include="images\20px-Wraith_King_minimap_icon.jpg" />
+    <Resource Include="images\20px-Zeus_minimap_icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\20px-Nature%27s_Prophet_minimap_icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="drow.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
