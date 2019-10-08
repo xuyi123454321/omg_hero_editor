@@ -533,26 +533,26 @@ namespace OMGHero
                 var abilities = data.abilities[pair[1]];
                 AbilitySlot.Add(slotn.ToString(), abilities[0]);
 
-                if (HeroTag == data.tag) // this hero's own ability
-                    continue; // no need to add extra abilities
-
-                for (int i = 1; i < abilities.Count; i++)
+                if (!String.Equals(HeroTag, data.tag)) // not this hero's own ability
                 {
-                    for (int j = 4; j < 25; j++) // invoker has 24 ability slots
+                    for (int i = 1; i < abilities.Count; i++)
                     {
-                        if (j == 6 || AbilitySlot.ContainsKey(j.ToString()))
+                        for (int j = 4; j < 25; j++) // invoker has 24 ability slots
                         {
-                            continue;
+                            if (j == 6 || AbilitySlot.ContainsKey(j.ToString()))
+                            {
+                                continue;
+                            }
+
+                            AbilitySlot.Add(j.ToString(), abilities[i]);
+                            break;
                         }
 
-                        AbilitySlot.Add(j.ToString(), abilities[i]);
-                        break;
-                    }
-
-                    if (!AbilitySlot.ContainsValue(abilities[i]))
-                    {
-                        MessageBox.Show("出错了！技能槽已满");
-                        break;
+                        if (!AbilitySlot.ContainsValue(abilities[i]))
+                        {
+                            MessageBox.Show("出错了！技能槽已满");
+                            break;
+                        }
                     }
                 }
 
