@@ -305,10 +305,10 @@
     "riki_blink_strike"
    ],
    "3": [
-    "riki_permanent_invisibility"
+    "riki_tricks_of_the_trade"
    ],
    "6": [
-    "riki_tricks_of_the_trade"
+    "riki_backstab"
    ]
   }
  },
@@ -1181,7 +1181,7 @@
   "tag": "npc_dota_hero_treant",
   "abilities": {
    "1": [
-    "treant_natures_guise"
+    "treant_natures_grasp"
    ],
    "2": [
     "treant_leech_seed"
@@ -1971,7 +1971,7 @@
   "tag": "npc_dota_hero_enchantress",
   "abilities": {
    "1": [
-    "enchantress_untouchable"
+    "enchantress_impetus"
    ],
    "2": [
     "enchantress_enchant"
@@ -1980,7 +1980,7 @@
     "enchantress_natures_attendants"
    ],
    "6": [
-    "enchantress_impetus"
+    "enchantress_untouchable"
    ]
   }
  },
@@ -2036,5 +2036,39 @@
     "dragon_knight_elder_dragon_form"
    ]
   }
- }
+ },
+ "虚无之灵": {
+    "tag": "npc_dota_hero_void_spirit",
+    "abilities": {
+     "1": [
+      "void_spirit_aether_remnant"
+     ],
+     "2": [
+      "void_spirit_dissimilate"
+     ],
+     "3": [
+      "void_spirit_resonant_pulse"
+     ],
+     "6": [
+      "void_spirit_astral_step"
+     ]
+    }
+   },
+   "电炎绝手": {
+    "tag": "npc_dota_hero_snapfire",
+    "abilities": {
+     "1": [
+      "snapfire_scatterblast"
+     ],
+     "2": [
+      "snapfire_firesnap_cookie"
+     ],
+     "3": [
+      "snapfire_lil_shredder"
+     ],
+     "6": [
+      "snapfire_mortimer_kisses"
+     ]
+    }
+   }
 }

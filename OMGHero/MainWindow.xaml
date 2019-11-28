@@ -132,6 +132,8 @@
             <sys:String>黑暗贤者</sys:String>
             <sys:String>齐天大圣</sys:String>
             <sys:String>龙骑士</sys:String>
+            <sys:String>虚无之灵</sys:String>
+            <sys:String>电炎绝手</sys:String>
         </x:Array>
         <x:Array x:Key="HeroThumbs" Type="sys:String">
             <sys:String>images\20px-Elder_Titan_minimap_icon.jpg</sys:String>
@@ -251,6 +253,8 @@
             <sys:String>images\20px-Dark_Seer_minimap_icon.jpg</sys:String>
             <sys:String>images\20px-Monkey_King_minimap_icon.jpg</sys:String>
             <sys:String>images\20px-Dragon_Knight_minimap_icon.jpg</sys:String>
+            <sys:String>images\20px-Void_Spirit_minimap_icon.png</sys:String>
+            <sys:String>images\20px-Snapfire_minimap_icon.png</sys:String>
         </x:Array>
         <x:Array  x:Key="HeroAbilities" Type="sys:String">
             <sys:String>1技能</sys:String>

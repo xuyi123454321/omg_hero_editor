@@ -229,5 +229,11 @@
   <ItemGroup>
     <Resource Include="drow.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\20px-Snapfire_minimap_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\20px-Void_Spirit_minimap_icon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

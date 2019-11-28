@@ -531,7 +531,9 @@ namespace OMGHero
             {
                 AbilityData data = MainWindow.AbilityDataDict[pair[0]];
                 var abilities = data.abilities[pair[1]];
-                AbilitySlot.Add(slotn.ToString(), abilities[0]);
+
+
+
 
                 if (!String.Equals(HeroTag, data.tag)) // not this hero's own ability
                 {
@@ -556,6 +558,21 @@ namespace OMGHero
                     }
                 }
 
+                // add "generic hidden" to slot 4 and 5 before ulti
+                if (slotn == 6)
+                {
+                    if (!AbilitySlot.ContainsKey("4"))
+                    {
+                        AbilitySlot.Add("4", "generic_hiddern");
+                    }
+                    if (!AbilitySlot.ContainsKey("5"))
+                    {
+                        AbilitySlot.Add("5", "generic_hiddern");
+                    }
+                }
+
+                AbilitySlot.Add(slotn.ToString(), abilities[0]); // add main ability last after "generic hidder"
+
                 slotn++;
                 if(slotn == 4)
                 {
@@ -563,7 +580,17 @@ namespace OMGHero
                 }
             }
 
-            foreach(KeyValuePair<string, string> pair in AbilitySlot)
+            // add "generic hidden" to slot 4 and 5
+            if (!AbilitySlot.ContainsKey("4"))
+            {
+                AbilitySlot.Add("4", "generic_hiddern");
+            }
+            if (!AbilitySlot.ContainsKey("5"))
+            {
+                AbilitySlot.Add("5", "generic_hiddern");
+            }
+
+            foreach (KeyValuePair<string, string> pair in AbilitySlot)
             {
                 NewConfig.Add(String.Format("\t\t\"Ability{0}\"\t\t\"{1}\"",
                                             pair.Key, pair.Value));
