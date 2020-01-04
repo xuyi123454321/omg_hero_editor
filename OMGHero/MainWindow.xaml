@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:OMGHero"
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="617">
+        Title="OMG Hero Editor" Height="450" Width="620">
     <Window.Resources>
         <DataTemplate x:Key="cmbTemplate">
             <WrapPanel Margin="0 0 0 0">
@@ -268,7 +268,7 @@
             <sys:String>3技能</sys:String>
         </x:Array>
     </Window.Resources>
-    <Grid VerticalAlignment="Top" Height="417.24" Margin="0,0,18,0" Width="780" HorizontalAlignment="Left">
+    <Grid VerticalAlignment="Top" Height="417.24" Margin="0,0,18,0" Width="620" HorizontalAlignment="Left">
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="29.54" Margin="32.433,80,0,0" TextWrapping="Wrap" Text="选择英雄模型" VerticalAlignment="Top" Width="147.703"/>
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="32.433,140,0,0" TextWrapping="Wrap" Text="1技能" VerticalAlignment="Top" Width="139.825"/>
         <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="32.433,200,0,0" TextWrapping="Wrap" Text="2技能" Width="139.825" VerticalAlignment="Top"/>
@@ -279,16 +279,16 @@
         <ComboBox x:Name="comboBox3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="140" Margin="176.136,195,0,0" ItemTemplate="{StaticResource cmbTemplate}" Height="32"/>
         <ComboBox x:Name="comboBox4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="140" Margin="176.136,255,0,0" ItemTemplate="{StaticResource cmbTemplate}" Height="32"/>
         <ComboBox x:Name="comboBox5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="140" Margin="176.136,315,0,0" ItemTemplate="{StaticResource cmbTemplate}" Height="32"/>
-        <ComboBox x:Name="comboBox6" HorizontalAlignment="Right" VerticalAlignment="Top" Width="140" Margin="0,135,247,0" Height="32" ItemsSource="{Binding Mode=OneWay, Source={StaticResource HeroNormalAbilities}}" FontSize="16" />
-        <ComboBox x:Name="comboBox7" HorizontalAlignment="Right" VerticalAlignment="Top" Width="140" Margin="0,195,247,0" Height="32" ItemsSource="{Binding Mode=OneWay, Source={StaticResource HeroNormalAbilities}}" FontSize="16" />
-        <ComboBox x:Name="comboBox8" HorizontalAlignment="Right" VerticalAlignment="Top" Width="140" Margin="0,255,247,0" Height="32" ItemsSource="{Binding Mode=OneWay, Source={StaticResource HeroNormalAbilities}}" FontSize="16"/>
-        <ComboBox x:Name="comboBox9" HorizontalAlignment="Right" VerticalAlignment="Top" Width="140" Margin="0,315,247,0" Height="32" ItemsSource="{Binding Mode=OneWay, Source={StaticResource HeroAbilities}}" FontSize="16" SelectedIndex="3"/>
+        <ComboBox x:Name="comboBox6" HorizontalAlignment="Right" VerticalAlignment="Top" Width="140" Margin="0,135,70,0" Height="32" ItemsSource="{Binding Mode=OneWay, Source={StaticResource HeroNormalAbilities}}" FontSize="16" />
+        <ComboBox x:Name="comboBox7" HorizontalAlignment="Right" VerticalAlignment="Top" Width="140" Margin="0,195,70,0" Height="32" ItemsSource="{Binding Mode=OneWay, Source={StaticResource HeroNormalAbilities}}" FontSize="16" />
+        <ComboBox x:Name="comboBox8" HorizontalAlignment="Right" VerticalAlignment="Top" Width="140" Margin="0,255,70,0" Height="32" ItemsSource="{Binding Mode=OneWay, Source={StaticResource HeroNormalAbilities}}" FontSize="16"/>
+        <ComboBox x:Name="comboBox9" HorizontalAlignment="Right" VerticalAlignment="Top" Width="140" Margin="0,315,70,0" Height="32" ItemsSource="{Binding Mode=OneWay, Source={StaticResource HeroAbilities}}" FontSize="16" SelectedIndex="3"/>
         <Button x:Name="button" Content="创建英雄" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="75" Margin="32.433,0,0,19" Click="Button_Click"/>
         <CheckBox x:Name="checkBox" Content="覆盖原英雄" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="176.136,0,0,20.141" IsChecked="True" IsEnabled="False"/>
-        <CheckBox x:Name="checkBox2" Content="解锁大招限制" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,281.025,20.141" d:LayoutOverrides="HorizontalAlignment" Width="105.975" Checked="CheckBox2_Checked" Unchecked="CheckBox2_Unchecked"/>
+        <CheckBox x:Name="checkBox2" Content="解锁大招限制" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,104.025,20.141" d:LayoutOverrides="HorizontalAlignment" Width="105.975" Checked="CheckBox2_Checked" Unchecked="CheckBox2_Unchecked" RenderTransformOrigin="0.934,0.662"/>
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="24" Margin="32.433,24,0,0" TextWrapping="Wrap" Text="选择 dota2_beta 文件夹位置" VerticalAlignment="Top" Width="283.703" IsReadOnly="True" />
         <Button x:Name="button1" Content="选取" HorizontalAlignment="Left" Height="24" Margin="316.136,24,0,0" VerticalAlignment="Top" Width="60.864" Click="Button1_Click"/>
-        <Button x:Name="button2" Content="随机技能" HorizontalAlignment="Right" Height="24" Margin="0,24,247,0" VerticalAlignment="Top" Width="67" Click="Button2_Click"/>
+        <Button x:Name="button2" Content="随机技能" HorizontalAlignment="Right" Height="24" Margin="0,24,70,0" VerticalAlignment="Top" Width="67" Click="Button2_Click"/>
 
     </Grid>
 </Window>
