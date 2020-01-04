@@ -338,9 +338,9 @@
    "2": [
     "drow_ranger_wave_of_silence"
    ],
-   "3": [
-    "drow_ranger_trueshot"
-   ],
+    "3": [
+      "drow_ranger_multishot"
+    ],
    "6": [
     "drow_ranger_marksmanship"
    ]
@@ -625,7 +625,6 @@
     "tiny_toss"
    ],
    "3": [
-    "tiny_craggy_exterior",
     "tiny_tree_channel",
     "tiny_toss_tree"
    ],
@@ -877,9 +876,7 @@
     "lone_druid_savage_roar"
    ],
    "6": [
-    "lone_druid_true_form",
-    "lone_druid_true_form_druid",
-    "lone_druid_true_form_battle_cry"
+    "lone_druid_true_form"
    ]
   }
  },
