@@ -304,7 +304,6 @@ namespace OMGHero
             }
         }
 
-    }
 
     public class HeroData
     {
