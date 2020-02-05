@@ -624,10 +624,11 @@
    "2": [
     "tiny_toss"
    ],
-   "3": [
-    "tiny_tree_channel",
-    "tiny_toss_tree"
-   ],
+    "3": [
+      "tiny_tree_grab",
+      "tiny_tree_channel",
+      "tiny_toss_tree"
+    ],
    "6": [
     "tiny_grow"
    ]

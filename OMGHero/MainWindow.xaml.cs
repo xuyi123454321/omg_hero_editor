@@ -239,7 +239,7 @@ namespace OMGHero
                     PathSet = true;
 
                     // Edit Registry to Store Path
-                    RegistryKey key = Registry.CurrentUser.OpenSubKey(@"Software\OMG");
+                    RegistryKey key = Registry.CurrentUser.OpenSubKey(@"Software\OMG", true);
                     if (key != null)
                     {
                         key.SetValue("DotaPath", pathname);
